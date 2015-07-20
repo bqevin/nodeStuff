@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kevin's API Authentication</title>
+</head>
+<body>
+	 <% if(!isAuthenticated){ %>
+	 	<a href="/login">Log-in here</a>
+	 <% } else { %>
+	 		Hello, <%= user.name %>!
+	 		<br>
+	 		<a href="/logout">Logout</a>
+	 <% } %>
+</body>
+</html>

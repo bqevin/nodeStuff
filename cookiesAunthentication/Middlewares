@@ -1,0 +1,6 @@
+passport
+passport-local
+passport-facebook
+passport-http
+cookie-parser
+express-session
